@@ -1,0 +1,31 @@
+{
+  "name": "yiwen-wuliao-ju",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "异闻物料局 — 本地优先的 TRPG / OC 物料编辑器",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "preview": "vite preview --host",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "jspdf": "4.2.1",
+    "konva": "10.9.1",
+    "vue": "3.5.44"
+  },
+  "devDependencies": {
+    "@esbuild/win32-x64": "^0.28.2",
+    "@types/node": "^22.20.5",
+    "@vitejs/plugin-vue": "6.0.10",
+    "playwright-core": "^1.64.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "3.2.7",
+    "vue-tsc": "^3.3.14"
+  }
+}
